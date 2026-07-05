@@ -24,18 +24,24 @@ Mastering the command line and Git version control — essential tools for every
 - Markdown
 
 ## Project Structure
+```
 iyf-s11-week-03-dream333wxrld-juice/
-├── daily-challenge-1/sss
+├── daily-challenge-1/
 │   ├── src/
 │   │   ├── index.html
 │   │   ├── css/style.css
 │   │   └── js/app.js
 │   └── README.md
+├── images/
+│   └── screenshot.png
 ├── boilerplate.ps1
 ├── new-project.ps1
 ├── terminal-log.md
+├── index.html
+├── LICENSE
 ├── .gitignore
 └── README.md
+```
 ## What I Learned
 Learned how to navigate the file system using only terminal commands, create project structures without a GUI, and manage code history using Git. Also learned how to write meaningful commit messages and work with branches.
 
