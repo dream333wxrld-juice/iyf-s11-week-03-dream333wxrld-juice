@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gilbert Mungai - Week 03</title>
+    <title>Gilbert Mungai - </title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #0a0a0a;
@@ -20,37 +19,31 @@
             justify-content: center;
             min-height: 100vh;
             text-align: center;
-            padding: 20px;
+            padding: 40px 20px;
         }
-
         .container {
             max-width: 600px;
         }
-
         h1 {
             font-size: 2.5rem;
             color: #fff;
             margin-bottom: 10px;
         }
-
         h1 span {
             color: #ff6b35;
         }
-
         p {
             color: #888;
             font-size: 1rem;
             line-height: 1.8;
             margin-bottom: 30px;
         }
-
         .links {
             display: flex;
             gap: 16px;
             justify-content: center;
             flex-wrap: wrap;
         }
-
         a {
             padding: 12px 28px;
             border-radius: 6px;
@@ -59,24 +52,142 @@
             font-size: 0.95rem;
             transition: all 0.3s ease;
         }
-
         .btn-primary {
             background-color: #ff6b35;
             color: #fff;
         }
-
         .btn-primary:hover {
             background-color: #e55a27;
         }
-
         .btn-outline {
             border: 2px solid #ff6b35;
             color: #ff6b35;
         }
-
         .btn-outline:hover {
             background-color: #ff6b35;
             color: #fff;
+        }
+
+        /* Projects section */
+        .section {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .section-title {
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section-title span {
+            color: #ff6b35;
+        }
+        .project-card {
+            background-color: #141414;
+            border: 1px solid #262626;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .project-card h3 {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .project-card p {
+            margin-bottom: 16px;
+            font-size: 0.92rem;
+        }
+        .tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+        .tag {
+            background-color: #1f1f1f;
+            color: #ff6b35;
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+        .project-card .links {
+            justify-content: flex-start;
+        }
+        .project-card a {
+            padding: 8px 20px;
+            font-size: 0.85rem;
+        }
+
+        /* Contact section */
+        .contact {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #262626;
+            text-align: center;
+        }
+        .contact-title {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .contact p {
+            margin-bottom: 6px;
+            font-size: 0.92rem;
+        }
+        .contact-link {
+            color: #ff6b35;
+            text-decoration: none;
+        }
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Booking section */
+        .booking {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #262626;
+            text-align: left;
+        }
+        .booking-form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-top: 16px;
+        }
+        .booking-form label {
+            display: block;
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .booking-form input {
+            width: 100%;
+            padding: 10px 12px;
+            border-radius: 6px;
+            border: 1px solid #333;
+            background-color: #141414;
+            color: #e0e0e0;
+            font-size: 0.9rem;
+            font-family: inherit;
+        }
+        .booking-form input:focus {
+            outline: none;
+            border-color: #ff6b35;
+        }
+        .booking-form button {
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .booking-note {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 10px;
+            margin-bottom: 0;
         }
     </style>
 </head>
@@ -91,6 +202,58 @@
         <div class="links">
             <a href="https://github.com/dream333wxrld-juice/iyf-s11-week-03-dream333wxrld-juice" class="btn-primary">View Repository</a>
             <a href="https://github.com/dream333wxrld-juice" class="btn-outline">My GitHub</a>
+        </div>
+
+        <div class="section">
+            <p class="section-title">My <span>Project</span></p>
+            <div class="project-card">
+                <h3>IYF S11 Week 03 - Developer Tools & Workflow</h3>
+                <p>
+                    A hands-on project covering terminal navigation, Git
+                    branching and merging, and writing clear technical
+                    documentation for a development workflow.
+                </p>
+                <div class="tags">
+                    <span class="tag">Git</span>
+                    <span class="tag">Command Line</span>
+                    <span class="tag">PowerShell</span>
+                    <span class="tag">Documentation</span>
+                </div>
+                <div class="links">
+                    <a href="https://github.com/dream333wxrld-juice/iyf-s11-week-03-dream333wxrld-juice" class="btn-primary">View Repository</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p class="contact-title">Reach Me</p>
+            <p>Gilbert Mungai</p>
+            <p>Phone: <a href="tel:+2540110911799" class="contact-link">+254 011 091 1799</a></p>
+            <p>GitHub: <a href="https://github.com/dream333wxrld-juice" class="contact-link">dream333wxrld-juice</a></p>
+        </div>
+
+        <div class="booking">
+            <p class="section-title">Book an <span>Appointment</span></p>
+            <form class="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+254 7XX XXX XXX" required>
+                </div>
+                <a href="#" onclick="document.querySelector('.booking-form').requestSubmit(); return false;" class="btn-primary" style="display:inline-block; text-align:center; width:100%;">Book Appointment</a>
+            </form>
+            <p class="booking-note">
+                Submissions are sent via Formspree. Replace <code>YOUR_FORM_ID</code>
+                in the form's action URL with your own Formspree endpoint
+                (sign up free at formspree.io) to receive booking requests by email.
+            </p>
         </div>
     </div>
 </body>
