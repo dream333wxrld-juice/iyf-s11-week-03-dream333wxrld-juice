@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gilbert Mungai - </title>
+    <title>Gilbert Mungai - Week 03</title>
     <style>
         * {
             margin: 0;
@@ -119,6 +119,11 @@
             padding: 8px 20px;
             font-size: 0.85rem;
         }
+        .project-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
 
         /* Contact section */
         .contact {
@@ -205,22 +210,56 @@
         </div>
 
         <div class="section">
-            <p class="section-title">My <span>Project</span></p>
-            <div class="project-card">
-                <h3>IYF S11 Week 03 - Developer Tools & Workflow</h3>
-                <p>
-                    A hands-on project covering terminal navigation, Git
-                    branching and merging, and writing clear technical
-                    documentation for a development workflow.
-                </p>
-                <div class="tags">
-                    <span class="tag">Git</span>
-                    <span class="tag">Command Line</span>
-                    <span class="tag">PowerShell</span>
-                    <span class="tag">Documentation</span>
+            <p class="section-title">My <span>Projects</span></p>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>IYF S11 Week 03 - Developer Tools & Workflow</h3>
+                    <p>
+                        A hands-on project covering terminal navigation, Git
+                        branching and merging, and writing clear technical
+                        documentation for a development workflow.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Command Line</span>
+                        <span class="tag">PowerShell</span>
+                        <span class="tag">Documentation</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/dream333wxrld-juice/iyf-s11-week-03-dream333wxrld-juice" class="btn-primary">View Repository</a>
+                    </div>
                 </div>
-                <div class="links">
-                    <a href="https://github.com/dream333wxrld-juice/iyf-s11-week-03-dream333wxrld-juice" class="btn-primary">View Repository</a>
+
+                <div class="project-card">
+                    <h3>Icon Auto Spare - Inventory System</h3>
+                    <p>
+                        A full inventory management website for my auto parts
+                        business in Nairobi's Industrial Area. Handles stock
+                        tracking, sales recording, supplier management, and a
+                        public parts catalogue for customers.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">lowdb</span>
+                        <span class="tag">Business Tools</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>JARVIS - Voice Assistant</h3>
+                    <p>
+                        A Python-based voice assistant inspired by JARVIS,
+                        capable of understanding spoken commands and
+                        responding using speech recognition and the
+                        Anthropic API.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Anthropic API</span>
+                        <span class="tag">SpeechRecognition</span>
+                        <span class="tag">pyttsx3</span>
+                    </div>
                 </div>
             </div>
         </div>
